@@ -124,10 +124,12 @@ const Rules = () => {
       </div>
       <div>
         <ul className='u'>
-          <li><u>There are total 8 rules, listed below</u></li>
+          <li><u>There are total 9 rules, listed below</u></li>
         </ul>
         <ol className="u">
-          <li>OTH will begin at "06/04/24 at 00:00" and will end at "08/04/24 at 00:00"</li>
+          <li>There will be 25 questions to unlock the treasure.</li>
+          <br/>
+          <li>OTH will begin at "04/04/24 at 00:00" and will end at "07/04/24 at 00:00"</li>
           <br />
           <li>You are allowed to use internet and AI tools to search answer. If the answer is correct then only you can move on to the next question</li>
           <br />
