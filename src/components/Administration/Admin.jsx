@@ -118,7 +118,8 @@
 
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import './Admin.css';
+import './Admin1.css';
+import TemporaryDrawer from  '../sidenavbar/sidenavbar.jsx';
 
 function Admin() {
   useEffect(() => {
@@ -135,7 +136,9 @@ function Admin() {
   }, []);
 
   return (
+    
     <div className="container">
+      <TemporaryDrawer/>
       <div className="navbar">
         <ul>
           <li>

@@ -1,0 +1,21 @@
+/* Header.css */
+.ReactNavbar {
+    /* Add your custom styles here */
+  
+    /* Example: Centering the navbar items */
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Media query for screens smaller than 768px (typical mobile size) */
+  @media (max-width: 768px) {
+    .ReactNavbar {
+      /* Adjust the navbar layout for smaller screens */
+  
+      /* Example: Stack the navigation items vertically */
+      flex-direction: column;
+    }
+  
+    /* Additional styles for smaller screens */
+  }
+  

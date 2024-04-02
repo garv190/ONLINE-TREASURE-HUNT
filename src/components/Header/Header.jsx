@@ -1,7 +1,7 @@
 import React from 'react'
 import {ReactNavbar} from "overlay-navbar"
 import { FaUserAlt } from "react-icons/fa";
-
+import './Header.css'; 
 import logo from "../Images/logo.png";
 
 const Header = () => {

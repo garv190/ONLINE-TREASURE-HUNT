@@ -207,7 +207,7 @@ import earthimage from "../Images/earth4.jpg";
 import sunimage from "../Images/sun3.jpg";
 import asteroidimage from "../Images/asteroid.jpg"; // Import the asteroid texture image
 import Heading from '../Heading/Heading';
-import "./Home.css";
+import "./Home1.css";
 
 const Home = () => {
     const scene = useRef(new THREE.Scene());
@@ -391,8 +391,8 @@ const Home = () => {
                 asteroid.position.y += moveAmount;
             }
 
-            gunPointer.current.position.x = mouseX * 5;
-            gunPointer.current.position.y = mouseY * 5;
+            gunPointer.current.position.x = mouseX * 15;
+            gunPointer.current.position.y = mouseY * 15;
         }
     };
    
